@@ -36,12 +36,32 @@ const MyWork = () => {
                     <a href="https://www.worldtricks4u.com/" target="_blank" ><img src="./worldtricks4u.png" alt="" className=' duration-300 border-2 border-[pink]' /></a>
                 </div>
 
-                <div className='h-[350px] overflow-y-scroll rounded-2xl '>
+                {/* <div className='h-[350px] overflow-y-scroll rounded-2xl '>
                     <a href="https://services.worldtricks4u.com/" target="_blank" ><img src="./eservice.png" alt="" className=' duration-300 border-2 border-[pink]' /></a>
-                </div>
+                </div> */}
 
                 <div className='h-[350px] overflow-y-scroll rounded-2xl '>
                     <a href="https://www.orenspace.com/" target="_blank" ><img src="./orenspace.png" alt="" className=' duration-300 border-2 border-[pink]' /></a>
+                </div>
+
+                <div className='h-[350px] overflow-y-scroll rounded-2xl '>
+                    <a href="https://www.masterstack.ai/" target="_blank" ><img src="./masterstack.png" alt="" className=' duration-300 border-2 border-[pink]' /></a>
+                </div>
+
+                <div className='h-[350px] overflow-y-scroll rounded-2xl '>
+                    <a href="https://gtracademy.org/" target="_blank" ><img src="./gtr.png" alt="" className=' duration-300 border-2 border-[pink]' /></a>
+                </div>
+
+                <div className='h-[350px] overflow-y-scroll rounded-2xl '>
+                    <a href="https://tripo24.com/" target="_blank" ><img src="./tripo24.png" alt="" className=' duration-300 border-2 border-[pink]' /></a>
+                </div>
+
+                 <div className='h-[350px] overflow-y-scroll rounded-2xl '>
+                    <a href="https://kayrasolutions.com/" target="_blank" ><img src="./kayrasolutions.png" alt="" className=' duration-300 border-2 border-[pink]' /></a>
+                </div>
+
+                  <div className='h-[350px] overflow-y-scroll rounded-2xl '>
+                    <a href="https://rootbix.com/" target="_blank" ><img src="./rootbix.png" alt="" className=' duration-300 border-2 border-[pink]' /></a>
                 </div>
 
             </div>

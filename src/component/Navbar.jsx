@@ -4,7 +4,7 @@ Link
 
 const Navbar = () => {
   return (
-  <section className="hidden sm:flex justify-between items-center py-2">
+  <section className="hidden sm:flex justify-between bg-white text-black items-center py-2 p-5 m-5  border-2 rounded-3xl border-white">
     <div className="nav-logo">
         <h1 className='text-[tomato] text-[20px] font-semibold'>PRASHANT PORTFOLIO</h1>
     </div>
@@ -20,7 +20,7 @@ const Navbar = () => {
     </div>
 
 
-        <div className="nav-contact-btn bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 py-1 px-3 hover:scale-105 duration-500 rounded-2xl ">
+        <div className="nav-contact-btn bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 py-1 px-3 hover:scale-105 duration-500 rounded-2xl text-white">
             <button><a href='#contact'>Connect With Me</a></button>
         </div>
   </section>

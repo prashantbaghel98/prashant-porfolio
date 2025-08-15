@@ -9,6 +9,7 @@ import Contact from './component/Contact'
 import Footer from './component/Footer'
 import Education from './component/Education'
 import Certification from './component/Certification'
+import Experience from './component/Experience'
 
 
 
@@ -20,6 +21,7 @@ function App() {
      <Navbar/>
      <Hero/>
      <About/>
+     <Experience/>
      <Education/>
      <Certification/>
      <Services/>

@@ -49,11 +49,11 @@ const Contact = () => {
   };
 
   return (
-    <section className="contact " id='contact'>
+    <section className="contact p-2 " id='contact'>
       <Title title="Get In Touch" />
       <div className="sm:flex justify-center -mt-16 sm:mt-0">
         <div className="contact-left flex flex-col gap-5 sm:w-[50%]">
-          <h1 className="text-[60px] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">
+          <h1 className="text-[40px] mt-10 sm:text-[60px] sm:mt-5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">
             Let's Talk
           </h1>
           <p className="sm:w-[80%]">
@@ -109,7 +109,7 @@ const Contact = () => {
             <p className='text-[red] mb-2'>{error}</p>
             <button
               type="submit"
-              className="mx-[30%] sm:mx-0 hover:border-2 h-10 hover:border-white  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 py-1 px-3  rounded-2xl"
+              className="w-full x-[30%] sm:mx-0 hover:border-2 h-10 hover:border-white  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 py-1 px-3  rounded-2xl"
             >
               Submit Now
             </button>
