@@ -53,6 +53,10 @@ const MyWork = () => {
                 </div>
 
                 <div className='h-[350px] overflow-y-scroll rounded-2xl '>
+                    <a href="https://www.rastainfotech.com/" target="_blank" ><img src="./rastainfotech.png" alt="" className=' duration-300 border-2 border-[pink]' /></a>
+                </div>
+
+                <div className='h-[350px] overflow-y-scroll rounded-2xl '>
                     <a href="https://tripo24.com/" target="_blank" ><img src="./tripo24.png" alt="" className=' duration-300 border-2 border-[pink]' /></a>
                 </div>
 
@@ -62,6 +66,30 @@ const MyWork = () => {
 
                   <div className='h-[350px] overflow-y-scroll rounded-2xl '>
                     <a href="https://rootbix.com/" target="_blank" ><img src="./rootbix.png" alt="" className=' duration-300 border-2 border-[pink]' /></a>
+                </div>
+                 <div className='h-[350px] overflow-y-scroll rounded-2xl '>
+                    <a href="https://www.thecakebasket.com/" target="_blank" ><img src="./thecakebasket.png" alt="" className=' duration-300 border-2 border-[pink]' /></a>
+                </div>
+                <div className='h-[350px] overflow-y-scroll rounded-2xl '>
+                    <a href="https://sothym.com/" target="_blank" ><img src="./sothym.png" alt="" className=' duration-300 border-2 border-[pink]' /></a>
+                </div>
+                <div className='h-[350px] overflow-y-scroll rounded-2xl '>
+                    <a href="https://playersforgood.com/" target="_blank" ><img src="./playersforgood.png" alt="" className=' duration-300 border-2 border-[pink]' /></a>
+                </div>
+                <div className='h-[350px] overflow-y-scroll rounded-2xl '>
+                    <a href="https://www.ourdreamwedding.ie/" target="_blank" ><img src="./ourdreamwedding.png" alt="" className=' duration-300 border-2 border-[pink]' /></a>
+                </div>
+                <div className='h-[350px] overflow-y-scroll rounded-2xl '>
+                    <a href="https://decasadecor.in/" target="_blank" ><img src="./decasadecor.png" alt="" className=' duration-300 border-2 border-[pink]' /></a>
+                </div>
+                <div className='h-[350px] overflow-y-scroll rounded-2xl '>
+                    <a href="https://www.contactmasterji.com/" target="_blank" ><img src="./contactmasterji.png" alt="" className=' duration-300 border-2 border-[pink]' /></a>
+                </div>
+                <div className='h-[350px] overflow-y-scroll rounded-2xl '>
+                    <a href="https://jenscasten.com/" target="_blank" ><img src="./jenscasten.png" alt="" className=' duration-300 border-2 border-[pink]' /></a>
+                </div>
+                <div className='h-[350px] overflow-y-scroll rounded-2xl '>
+                    <a href="https://www.babybumphotography.com/" target="_blank" ><img src="./babybumphotography.png" alt="" className=' duration-300 border-2 border-[pink]' /></a>
                 </div>
 
             </div>

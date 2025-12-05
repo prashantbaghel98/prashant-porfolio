@@ -1,33 +1,30 @@
-import { useState } from 'react'
 import './App.css'
 import Navbar from './component/Navbar'
-import Hero from './component/Hero'
-import About from './component/About'
-import Services from './component/Services'
-import MyWork from './component/MyWork'
-import Contact from './component/Contact'
 import Footer from './component/Footer'
-import Education from './component/Education'
-import Certification from './component/Certification'
-import Experience from './component/Experience'
+import { BrowserRouter,Routes, Route } from 'react-router-dom'
+import RootbixPage from './Pages/Company Page/RootbixPage'
+import Home from './Pages/Home'
+import WebsLoginPage from './Pages/Company Page/WebsLoginPage'
+import InternshipPage from './Pages/Company Page/InternshipPage'
 
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
      <Navbar/>
-     <Hero/>
-     <About/>
-     <Experience/>
-     <Education/>
-     <Certification/>
-     <Services/>
-     <MyWork/>
-     <Contact/>
+     
+    <Routes>
+      <Route path='/' element={<Home/>} />
+      {/* <Route path='/experience/rootbix' element={<RootbixPage/>} /> */}
+      {/* <Route path='/experience/webslogin' element={<WebsLoginPage/>} /> */}
+       {/* <Route path='/experience/codsoft' element={<InternshipPage/>} /> */}
+    </Routes>
      <Footer/>
+    
+    
+
     
     </>
   )
